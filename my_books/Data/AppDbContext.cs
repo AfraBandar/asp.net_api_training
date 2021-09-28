@@ -11,7 +11,8 @@ namespace my_books.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-            public DbSet<Book> Books { get; set; } //<book> is the c# model and variabl Book is the name of the tabel
+            
         }
+        public DbSet<Book> Books { get; set; } //<book> is the c# model and variabl Book is the name of the tabel
     }
 }
